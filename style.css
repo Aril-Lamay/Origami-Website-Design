@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    justify-content: center;
+
+    background-color: #f0fff0;
+    font-size: 40px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+    border-radius: 50px;
+    color: #fff8dc;
+
+}
+
+.grid{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.icon{
+    color:#008b8b;
+
+    border: 2px solid #000000 ;
+    border-radius: 20px;
+    background-color: #ffffff;
+
+    padding: 30px;
+    margin: 25px; 
+
+    width: 310px;
+    font-family: fantasy;
+}
+.topic{
+    color:#4b0082;
+}
+
+body{
+    margin: 0px;
+    background-color: #f5f5f5;
+}
